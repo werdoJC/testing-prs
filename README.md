@@ -1,6 +1,6 @@
 # testing-prs
 
-## Our repo (MIKE AND JOMAEL) for python training
+# Our repo (MIKE AND JOMAEL) for python training
 A python project using Flask microframework
 
 About
