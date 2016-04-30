@@ -1,0 +1,87 @@
+body {
+    background: black;
+    color: #AAAADD;
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+
+.navbar, .navbar-inner {
+    background-color: black;
+    background-image: none;
+    border: none;
+    height: 60px;
+}
+
+.container {
+    width: auto;
+}
+
+.navbar ul li {
+    color: #AAAADD;
+    font-size: 2em;
+    outline-color: #9999BB;
+    line-height: 40px;
+}
+
+h1 {
+    margin: 1em 5em 0em 5em;
+}
+
+h2.subtitle {
+    font-size:0.8em;
+    margin-bottom: 2em;
+}
+
+.place {
+    margin: 30px auto;
+}
+
+.certificate {
+    font-size: 0.8em;
+}
+
+.enclose-in-size-350 {
+	max-width: 350px;
+	max-height: 350px;
+	width: 100%
+	height: 100%;
+	overflow: hidden;
+	background-size: contain;
+	border: 5px dashed black;
+	border-style: ridge;
+}
+
+.war-container {
+	border: 1px solid black;
+	padding: 40px;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in-left {
+	opacity: 0;
+	animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.fade-in-vs {
+	opacity: 0;
+	animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.fade-in-right {
+	opacity: 0;
+	animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+.grow:hover {
+	transform: scale(1.05);
+}
