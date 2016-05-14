@@ -5,6 +5,7 @@ class Image(db.Model):
 	  db.Integer, primary_key = True)
 	url = db.Column(db.Text, unique = True)
 	
-	def_init_(self, url):
+	def __init__(self, url):
 		self.url = url
+
 		
